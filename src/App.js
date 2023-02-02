@@ -28,6 +28,4 @@ const App = () => {
     )
 }
 
-// header and footer are constant unlike those inside "ROUTES"
-
 export default App;

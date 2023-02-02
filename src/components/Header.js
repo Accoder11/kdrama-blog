@@ -22,22 +22,22 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Link to="/"><Button className="border = none">Home</Button></Link>
-            <Link to="kdrama-series"><Button className="border = none">
+            <Link to="/"><Button className="btn = none">Home</Button></Link>
+            <Link to="kdrama-series"><Button className="btn = none">
             K-Drama Series</Button></Link>
-            <Link to="upcoming"><Button className="border = none">Upcoming K-Dramas</Button></Link>
-            <Link to="blogs"><Button className="border = none">Blog</Button></Link>
-            <Link to="about-us"><Button className="border = none">About Us</Button></Link>
+            <Link to="upcoming"><Button className="btn = none">Upcoming K-Dramas</Button></Link>
+            <Link to="blogs"><Button className="btn = none">Blog</Button></Link>
+            <Link to="about-us"><Button className="btn = none">About Us</Button></Link>
           </Nav>
           <Outlet />
-          <Form className="d-flex">
+          <Form className="d-flex btn">
             <Form.Control
               type="search"
               placeholder="Search"
               className="me-2"
               aria-label="Search"
             />
-            <Button className="border = none">Search</Button>
+            <Button className="btn border = none">Search</Button>
           </Form>
         </Navbar.Collapse>
         </Container>

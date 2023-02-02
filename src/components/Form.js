@@ -1,11 +1,15 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Form = () => {
     return(
 
 <Container>
-<form class="row g-3">
+  <Row>
+    <Col sm={7}>
+    <form class="row g-3">
   <div class="col-md-4">
     <label for="validationDefault01" class="form-label">First name</label>
     <input type="text" class="form-control" id="validationDefault01" value="Mark" required />
@@ -50,7 +54,12 @@ const Form = () => {
     <button class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
-</Container>
+    </Col>
+    <Col>
+    <h1>I dont know what to put here</h1>
+    </Col>
+  </Row>
+  </Container>
 );
 }
 

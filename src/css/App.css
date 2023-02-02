@@ -52,7 +52,7 @@ a {
 .border {
   margin: auto 5px;
   color:red;
-  outline-style: inset;
+  outline-style: none;
   outline-width: 1px;
   background-color: gold;
   font-weight: bold;
@@ -62,7 +62,7 @@ a {
   color:black;
   outline-style: groove;
   outline-width: 1px;
-  background-color: white;
+  background: linear-gradient(45deg, #f8240d 0%, #fff705 100%)
 }
 
 .all-products {
@@ -99,10 +99,18 @@ to {
 }
 
 .banner {
-  background-image: url("https://i.ytimg.com/vi/Lqikl-ZfBpA/maxresdefault.jpg");
+  background-image: url('https://world-wire.com/wp-content/uploads/2020/08/Korean.jpg');
   height: 85vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+form {
+  max-width: 500px;
+}
+
+input[type="submit"]:hover {
+  transform: translate(0, -6px);
+  box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5) -10px 10px 25px 0 rgba(39, 200, 255, 0);
+}

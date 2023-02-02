@@ -12,7 +12,7 @@ const Header = () => {
       
         <Navbar sticky="top" bg="black" expand="lg" className="nav-border">
       <Container fluid className="mx-auto">
-        <Navbar.Brand><Link Link to="/"><img src={mylogo} alt= "logo" className="mylogo"/>
+        <Navbar.Brand><Link to="/"><img src={mylogo} alt= "logo" className="mylogo"/>
         </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

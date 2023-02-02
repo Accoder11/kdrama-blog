@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kdrama-blog/static/css/main.cd214bfd.css",
-    "main.js": "/kdrama-blog/static/js/main.43ac409e.js",
+    "main.css": "/kdrama-blog/static/css/main.dcd93d16.css",
+    "main.js": "/kdrama-blog/static/js/main.281b615e.js",
     "static/js/496.14e882be.chunk.js": "/kdrama-blog/static/js/496.14e882be.chunk.js",
     "static/media/kdrama-logo.png": "/kdrama-blog/static/media/kdrama-logo.b5c8e28ab07c86fc4744.png",
     "index.html": "/kdrama-blog/index.html",
-    "main.cd214bfd.css.map": "/kdrama-blog/static/css/main.cd214bfd.css.map",
-    "main.43ac409e.js.map": "/kdrama-blog/static/js/main.43ac409e.js.map",
+    "main.dcd93d16.css.map": "/kdrama-blog/static/css/main.dcd93d16.css.map",
+    "main.281b615e.js.map": "/kdrama-blog/static/js/main.281b615e.js.map",
     "496.14e882be.chunk.js.map": "/kdrama-blog/static/js/496.14e882be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd214bfd.css",
-    "static/js/main.43ac409e.js"
+    "static/css/main.dcd93d16.css",
+    "static/js/main.281b615e.js"
   ]
 }

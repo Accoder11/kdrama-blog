@@ -1,0 +1,108 @@
+
+.nav-border {
+  border-style: groove;
+}
+
+.header-main {
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.main-body {
+  width: 100%;
+  height: 100vh;
+}
+
+.footer-main {
+  width: 100%;
+  height: 10vh;  
+}
+
+.shop-now {
+  size: 300px;
+  color: white;
+  background-color: red;
+  font-size: 30px;
+  outline-style: groove;
+  border-radius: 5px;
+}
+
+.shop-now:hover {
+  border: 1px solid black;
+}
+
+.form-border {
+  background-color: whitesmoke;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.border {
+  margin: auto 5px;
+  color:red;
+  outline-style: inset;
+  outline-width: 1px;
+  background-color: gold;
+  font-weight: bold;
+}
+
+.border:hover {
+  color:black;
+  outline-style: groove;
+  outline-width: 1px;
+  background-color: white;
+}
+
+.all-products {
+  padding: 10px;
+  vertical-align: center;
+  margin: 10px auto;
+}
+
+.card-img {
+  width: 50px;
+  height: 150px;
+  padding-right: 15px;
+}
+
+.mylogo{
+  width: 80px;
+  margin: auto 2px;
+  object-fit: cover;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.mylogo {
+  animation: App-logo-spin infinite 20s linear;
+}
+}
+
+@keyframes App-logo-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+
+.banner {
+  background-image: url("https://i.ytimg.com/vi/Lqikl-ZfBpA/maxresdefault.jpg");
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

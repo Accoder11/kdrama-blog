@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import mylogo from '../image/kdrama-logo.png';

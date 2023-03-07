@@ -1,7 +1,6 @@
 {
-  "name": "my-blog-app",
+  "name": "kdrama-blog",
   "version": "0.1.0",
-  "homepage": "https://accoder11.github.io/kdrama-blog",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.3",

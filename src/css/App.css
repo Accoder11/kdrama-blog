@@ -37,20 +37,6 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-
-}
-
-.click-here{
-  size: 40px;
-  color: white;
-  background-color: red;
-  font-size: 30px;
-  outline-style: groove;
-  border-radius: 5px;
-}
-
-.shop-now:hover {
-  border: 1px solid black;
 }
 
 .form-border {
